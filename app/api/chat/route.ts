@@ -135,7 +135,7 @@ export async function POST(request: NextRequest) {
     });
 
     const response = await client.chat.completions.create({
-      model: "deepseek-chat",
+      model: "deepseek-v4-pro",
       messages: apiMessages,
       temperature: 0.8,
       max_tokens: 1500,
