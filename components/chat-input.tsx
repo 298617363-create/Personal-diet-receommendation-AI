@@ -82,7 +82,6 @@ export default function ChatInput({ onSend, loading }: Props) {
           ref={fileRef}
           type="file"
           accept="image/*"
-          capture="environment"
           className="hidden"
           onChange={handleFileChange}
         />
