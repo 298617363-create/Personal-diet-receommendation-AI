@@ -1,0 +1,17 @@
+{
+  "name": "减脂三餐推荐",
+  "short_name": "减脂餐",
+  "description": "AI 营养师帮你规划一日三餐",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
